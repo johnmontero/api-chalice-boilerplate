@@ -1,0 +1,17 @@
+{
+  "version": "2.0",
+  "app_name": "infrastructure",
+  "lambda_timeout": 900,
+  "environment_variables": {
+    "DEBUG": "True"
+  },
+  "stages": {
+    "dev": {
+      "api_gateway_stage": "api",
+      "autogen_policy": false,
+      "environment_variables": {
+        "API_KEY": "Ap1Tok3n"
+      }
+    }
+  }
+}
